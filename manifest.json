@@ -1,7 +1,7 @@
 {
     "name": "Annoy",
     "version": "1.0.0",
-    "description": "annoy desc",
+    "description": "Your top productivity inhibitor",
     "manifest_version": 3,
     "author": "Qin Haichen & Maximus Tan",
     "content_scripts": [
