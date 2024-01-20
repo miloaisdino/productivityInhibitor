@@ -1,0 +1,20 @@
+{
+    "name": "Annoy",
+    "version": "1.0.0",
+    "description": "annoy desc",
+    "manifest_version": 3,
+    "author": "Qin Haichen & Maximus Tan",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["sweetalert.min.js", "jquery-3.6.0.min.js", "inject.js", "inject2.js", "inject3.js", "entry.js"]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": ["<all_urls>"],
+    "background":{
+        "type": "module"
+    }
+}
